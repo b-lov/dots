@@ -2,16 +2,20 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	"editor.bracketPairColorization.enabled": false,
 	"editor.cursorBlinking": "phase",
 	"editor.fontFamily": "JetBrains Mono",
 	"editor.fontLigatures": true,
 	"editor.fontSize": 14,
+	"editor.guides.indentation": false,
 	"editor.hideCursorInOverviewRuler": true,
 	"editor.insertSpaces": false,
 	"editor.lineHeight": 1.7,
+	"editor.matchBrackets": "near",
 	"editor.minimap.enabled": false,
 	"editor.occurrencesHighlight": "off",
 	"editor.padding.top": 24,
+	"editor.renderWhitespace": "none",
 	"editor.scrollbar.horizontal": "hidden",
 	"editor.scrollbar.vertical": "hidden",
 	"editor.smoothScrolling": true,
@@ -25,7 +29,9 @@
 				// },
 				{
 					"scope": "comment",
-					"settings": { "fontStyle": "italic" }
+					"settings": {
+						"fontStyle": "italic"
+					}
 				},
 				{
 					"scope": [
@@ -93,9 +99,5 @@
 	"workbench.tree.indent": 12,
 	"zenMode.centerLayout": false,
 	"zenMode.fullScreen": false,
-	"zenMode.showTabs": "none",
-	"editor.renderWhitespace": "none",
-	"editor.bracketPairColorization.enabled": false,
-	"editor.matchBrackets": "near",
-	"editor.guides.indentation": false
+	"zenMode.showTabs": "none"
 }
