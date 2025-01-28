@@ -2,7 +2,6 @@
 	"AHK++.v2.file": {
 		"interpreterPath": "C:\\Users\\BilovM\\AppData\\Local\\Programs\\AutoHotkey\\v2\\AutoHotkey64.exe"
 	},
-	"breadcrumbs.enabled": false,
 	"editor.cursorBlinking": "phase",
 	"editor.fontFamily": "Maple Mono",
 	// "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
@@ -105,5 +104,14 @@
 	"workbench.tips.enabled": false,
 	"zenMode.centerLayout": false,
 	"zenMode.fullScreen": false,
-	"zenMode.showTabs": "none"
+	"zenMode.showTabs": "none",
+	"explorer.confirmDragAndDrop": false,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"breadcrumbs.enabled": false,
+	"prettier.useTabs": true,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }
