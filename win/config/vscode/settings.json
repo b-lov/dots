@@ -24,10 +24,7 @@
 		"[Flexoki Dark]": {
 			"textMateRules": [
 				{
-					"scope": [
-						"entity.name.function",
-						"support.function"
-					],
+					"scope": ["entity.name.function", "support.function"],
 					"settings": {
 						"fontStyle": ""
 					}
@@ -69,15 +66,8 @@
 	"vim.easymotion": true,
 	"vim.normalModeKeyBindingsNonRecursive": [
 		{
-			"after": [
-				"leader",
-				"leader",
-				"2",
-				"s"
-			],
-			"before": [
-				"s"
-			]
+			"after": ["leader", "leader", "2", "s"],
+			"before": ["s"]
 		}
 	],
 	"window.commandCenter": false,
