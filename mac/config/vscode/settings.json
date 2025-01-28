@@ -95,5 +95,7 @@
 	"zenMode.fullScreen": false,
 	"zenMode.showTabs": "none",
 	"editor.renderWhitespace": "none",
+	"editor.bracketPairColorization.enabled": false,
+	"editor.matchBrackets": "near",
 	"editor.guides.indentation": false
 }
