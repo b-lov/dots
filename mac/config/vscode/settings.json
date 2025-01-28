@@ -1,1 +1,99 @@
-/Users/lex/Library/Application Support/Code/User/settings.json
+{
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.cursorBlinking": "phase",
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.insertSpaces": false,
+	"editor.lineHeight": 1.7,
+	"editor.minimap.enabled": false,
+	"editor.occurrencesHighlight": "off",
+	"editor.padding.top": 24,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.smoothScrolling": true,
+	"editor.tabSize": 2,
+	"editor.tokenColorCustomizations": {
+		"[One Dark Pro Mix]": {
+			"textMateRules": [
+				// {
+				// 	"scope": ["entity.name.function", "support.function"],
+				// 	"settings": { "fontStyle": "" }
+				// },
+				{
+					"scope": "comment",
+					"settings": { "fontStyle": "italic" }
+				},
+				{
+					"scope": [
+						"punctuation",
+						"punctuation.definition.tag",
+						"punctuation.definition.string",
+						"punctuation.definition.comment",
+						"punctuation.terminator",
+						"punctuation.separator",
+						"comment"
+					],
+					"settings": {
+						"foreground": "#5c6370"
+					}
+				}
+			]
+		}
+	},
+	"explorer.compactFolders": false,
+	"explorer.sortOrder": "filesFirst",
+	"explorer.sortOrderLexicographicOptions": "lower",
+	"extensions.experimental.affinity": {
+		"vscode.vim": 1
+	},
+	"files.autoSave": "onFocusChange",
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+	"git.postCommitCommand": "sync",
+	"git.useEditorAsCommitInput": false,
+	"markdown.preview.breaks": true,
+	"markdown.preview.fontFamily": "Optima, -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+	"markdown.preview.fontSize": 16,
+	"markdown.preview.typographer": true,
+	"prettier.useTabs": true,
+	"scm.diffDecorations": "gutter",
+	"svelte.enable-ts-plugin": true,
+	"symbols.hidesExplorerArrows": true,
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.lineHeight": 1.2,
+	"vim.easymotion": true,
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"after": ["leader", "leader", "2", "s"],
+			"before": ["s"]
+		}
+	],
+	"vim.replaceWithRegister": true,
+	"vim.useSystemClipboard": true,
+	"window.commandCenter": false,
+	"window.titleBarStyle": "native",
+	"workbench.colorCustomizations": {
+		"editorOverviewRuler.border": "#00000000",
+		"tab.activeBorder": "#00000000",
+		"tab.border": "#00000000",
+		"terminal.background": "#121212",
+		"widget.border": "#00000000"
+	},
+	"workbench.colorTheme": "One Dark Pro Mix",
+	"workbench.editor.labelFormat": "short",
+	"workbench.iconTheme": "symbols",
+	"workbench.layoutControl.enabled": false,
+	"workbench.startupEditor": "none",
+	"workbench.tips.enabled": false,
+	"workbench.tree.indent": 12,
+	"zenMode.centerLayout": false,
+	"zenMode.fullScreen": false,
+	"zenMode.showTabs": "none",
+	"editor.renderWhitespace": "none",
+	"editor.guides.indentation": false
+}
