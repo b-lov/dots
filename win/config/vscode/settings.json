@@ -1,7 +1,14 @@
 {
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"AHK++.v2.file": {
 		"interpreterPath": "C:\\Users\\BilovM\\AppData\\Local\\Programs\\AutoHotkey\\v2\\AutoHotkey64.exe"
 	},
+	"breadcrumbs.enabled": false,
 	"editor.cursorBlinking": "phase",
 	"editor.fontFamily": "Maple Mono",
 	"editor.fontSize": 15,
@@ -23,7 +30,10 @@
 		"[Flexoki Dark]": {
 			"textMateRules": [
 				{
-					"scope": ["entity.name.function", "support.function"],
+					"scope": [
+						"entity.name.function",
+						"support.function"
+					],
 					"settings": {
 						"fontStyle": ""
 					}
@@ -51,6 +61,7 @@
 			]
 		}
 	},
+	"explorer.confirmDragAndDrop": false,
 	"files.autoSave": "onFocusChange",
 	"git.autofetch": true,
 	"git.confirmSync": false,
@@ -60,13 +71,21 @@
 	"markdown.preview.breaks": true,
 	"markdown.preview.fontFamily": "Quicksand, -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
 	"markdown.preview.fontSize": 16,
+	"prettier.useTabs": true,
 	"security.workspace.trust.untrustedFiles": "open",
 	"symbols.hidesExplorerArrows": true,
 	"vim.easymotion": true,
 	"vim.normalModeKeyBindingsNonRecursive": [
 		{
-			"after": ["leader", "leader", "2", "s"],
-			"before": ["s"]
+			"after": [
+				"leader",
+				"leader",
+				"2",
+				"s"
+			],
+			"before": [
+				"s"
+			]
 		}
 	],
 	"window.commandCenter": false,
@@ -93,14 +112,5 @@
 	"workbench.tips.enabled": false,
 	"zenMode.centerLayout": false,
 	"zenMode.fullScreen": false,
-	"zenMode.showTabs": "none",
-	"explorer.confirmDragAndDrop": false,
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"breadcrumbs.enabled": false,
-	"prettier.useTabs": true,
-	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	"zenMode.showTabs": "none"
 }
