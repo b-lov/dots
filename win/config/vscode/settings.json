@@ -4,7 +4,6 @@
 	},
 	"editor.cursorBlinking": "phase",
 	"editor.fontFamily": "Maple Mono",
-	// "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
 	"editor.fontSize": 15,
 	"editor.guides.bracketPairs": "active",
 	"editor.guides.indentation": false,
@@ -86,7 +85,7 @@
 		"titleBar.border": "#00000000",
 		"widget.border": "#00000000"
 	},
-	"workbench.colorTheme": "Flexoki Dark",
+	"workbench.colorTheme": "One Dark Pro Mix",
 	"workbench.editor.empty.hint": "hidden",
 	"workbench.iconTheme": "symbols",
 	"workbench.layoutControl.enabled": false,
