@@ -8,15 +8,15 @@
 	"AHK++.v2.file": {
 		"interpreterPath": "C:\\Users\\BilovM\\AppData\\Local\\Programs\\AutoHotkey\\v2\\AutoHotkey64.exe"
 	},
-	"breadcrumbs.enabled": false,
 	"editor.cursorBlinking": "phase",
-	"editor.fontFamily": "Maple Mono",
-	"editor.fontSize": 15,
-	"editor.guides.bracketPairs": "active",
+	"editor.fontFamily": "JetBrainsMono Nerd Font",
+	"editor.fontSize": 14,
+	"editor.fontLigatures": true,
 	"editor.guides.indentation": false,
 	"editor.hideCursorInOverviewRuler": true,
 	"editor.insertSpaces": false,
-	"editor.lineHeight": 1.6,
+	"editor.lineHeight": 1.7,
+	"editor.matchBrackets": "near",
 	"editor.links": false,
 	"editor.minimap.enabled": false,
 	"editor.occurrencesHighlight": "off",
@@ -27,17 +27,12 @@
 	"editor.smoothScrolling": true,
 	"editor.tabSize": 2,
 	"editor.tokenColorCustomizations": {
-		"[Flexoki Dark]": {
+		"[One Dark Pro Mix]": {
 			"textMateRules": [
-				{
-					"scope": [
-						"entity.name.function",
-						"support.function"
-					],
-					"settings": {
-						"fontStyle": ""
-					}
-				},
+				// {
+				// 	"scope": ["entity.name.function", "support.function"],
+				// 	"settings": { "fontStyle": "" }
+				// },
 				{
 					"scope": "comment",
 					"settings": {
@@ -55,13 +50,19 @@
 						"comment"
 					],
 					"settings": {
-						"foreground": "#575653"
+						"foreground": "#5c6370"
 					}
 				}
 			]
 		}
 	},
+	"explorer.compactFolders": false,
 	"explorer.confirmDragAndDrop": false,
+	"explorer.sortOrder": "filesFirst",
+	"explorer.sortOrderLexicographicOptions": "lower",
+	"extensions.experimental.affinity": {
+		"vscode.vim": 1
+	},
 	"files.autoSave": "onFocusChange",
 	"git.autofetch": true,
 	"git.confirmSync": false,
@@ -77,15 +78,8 @@
 	"vim.easymotion": true,
 	"vim.normalModeKeyBindingsNonRecursive": [
 		{
-			"after": [
-				"leader",
-				"leader",
-				"2",
-				"s"
-			],
-			"before": [
-				"s"
-			]
+			"after": ["leader", "leader", "2", "s"],
+			"before": ["s"]
 		}
 	],
 	"window.commandCenter": false,
