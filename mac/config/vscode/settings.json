@@ -11,7 +11,7 @@
 	"editor.hideCursorInOverviewRuler": true,
 	"editor.insertSpaces": false,
 	"editor.lineHeight": 1.7,
-	"editor.matchBrackets": "near",
+	"editor.matchBrackets": "never",
 	"editor.minimap.enabled": false,
 	"editor.occurrencesHighlight": "off",
 	"editor.padding.top": 24,
