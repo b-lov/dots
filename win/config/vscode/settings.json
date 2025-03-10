@@ -8,6 +8,7 @@
 	"AHK++.v2.file": {
 		"interpreterPath": "C:\\Users\\BilovM\\AppData\\Local\\Programs\\AutoHotkey\\v2\\AutoHotkey64.exe"
 	},
+	"editor.bracketPairColorization.enabled": false,
 	"editor.cursorBlinking": "phase",
 	"editor.fontFamily": "JetBrainsMono Nerd Font",
 	"editor.fontLigatures": true,
@@ -17,7 +18,7 @@
 	"editor.insertSpaces": false,
 	"editor.lineHeight": 1.7,
 	"editor.links": false,
-	"editor.matchBrackets": "near",
+	"editor.matchBrackets": "never",
 	"editor.minimap.enabled": false,
 	"editor.occurrencesHighlight": "off",
 	"editor.padding.top": 24,
@@ -27,7 +28,7 @@
 	"editor.smoothScrolling": true,
 	"editor.tabSize": 2,
 	"editor.tokenColorCustomizations": {
-		"[One Dark Pro Mix]": {
+		"[One Dark Pro Night Flat]": {
 			"textMateRules": [
 				// {
 				// 	"scope": ["entity.name.function", "support.function"],
@@ -91,13 +92,15 @@
 	"window.commandCenter": false,
 	"window.titleBarStyle": "native",
 	"workbench.colorCustomizations": {
+		"editorLineNumber.foreground": "#5c6370",
 		"editorOverviewRuler.border": "#00000000",
+		"panel.border": "#00000000",
+		// "widget.border": "#00000000",
+		"sideBar.border": "#00000000",
 		"tab.activeBorder": "#00000000",
-		"tab.border": "#00000000",
-		"terminal.background": "#121212",
-		"widget.border": "#00000000"
+		"terminal.background": "#121212"
 	},
-	"workbench.colorTheme": "One Dark Pro Mix",
+	"workbench.colorTheme": "One Dark Pro Night Flat",
 	"workbench.editor.empty.hint": "hidden",
 	"workbench.editor.labelFormat": "short",
 	"workbench.iconTheme": "symbols",
