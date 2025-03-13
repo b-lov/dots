@@ -2,7 +2,6 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"editor.bracketPairColorization.enabled": false,
 	"editor.cursorBlinking": "phase",
 	"editor.fontFamily": "JetBrains Mono",
 	"editor.fontLigatures": true,
@@ -21,7 +20,7 @@
 	"editor.smoothScrolling": true,
 	"editor.tabSize": 2,
 	"editor.tokenColorCustomizations": {
-		"[One Dark Pro Mix]": {
+		"[One Dark Pro Night Flat]": {
 			"textMateRules": [
 				// {
 				// 	"scope": ["entity.name.function", "support.function"],
@@ -90,7 +89,7 @@
 		"terminal.background": "#121212",
 		"widget.border": "#00000000"
 	},
-	"workbench.colorTheme": "One Dark Pro Mix",
+	"workbench.colorTheme": "One Dark Pro Night Flat",
 	"workbench.editor.labelFormat": "short",
 	"workbench.iconTheme": "symbols",
 	"workbench.layoutControl.enabled": false,
@@ -100,5 +99,7 @@
 	"zenMode.centerLayout": false,
 	"zenMode.fullScreen": false,
 	"zenMode.showTabs": "none",
-	"workbench.editor.empty.hint": "hidden"
+	"workbench.editor.empty.hint": "hidden",
+	"editor.bracketPairColorization.enabled": false,
+	"security.workspace.trust.untrustedFiles": "open"
 }
