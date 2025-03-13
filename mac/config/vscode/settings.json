@@ -59,7 +59,6 @@
 	"git.autofetch": true,
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
-	"git.postCommitCommand": "sync",
 	"git.useEditorAsCommitInput": false,
 	"markdown.preview.breaks": true,
 	"markdown.preview.fontFamily": "Optima, -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
