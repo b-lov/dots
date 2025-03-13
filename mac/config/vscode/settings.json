@@ -2,6 +2,7 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	"editor.bracketPairColorization.enabled": false,
 	"editor.cursorBlinking": "phase",
 	"editor.fontFamily": "JetBrains Mono",
 	"editor.fontLigatures": true,
@@ -66,6 +67,7 @@
 	"markdown.preview.typographer": true,
 	"prettier.useTabs": true,
 	"scm.diffDecorations": "gutter",
+	"security.workspace.trust.untrustedFiles": "open",
 	"svelte.enable-ts-plugin": true,
 	"symbols.hidesExplorerArrows": true,
 	"terminal.integrated.fontSize": 14,
@@ -89,6 +91,7 @@
 		"widget.border": "#00000000"
 	},
 	"workbench.colorTheme": "One Dark Pro Night Flat",
+	"workbench.editor.empty.hint": "hidden",
 	"workbench.editor.labelFormat": "short",
 	"workbench.iconTheme": "symbols",
 	"workbench.layoutControl.enabled": false,
@@ -97,8 +100,5 @@
 	"workbench.tree.indent": 12,
 	"zenMode.centerLayout": false,
 	"zenMode.fullScreen": false,
-	"zenMode.showTabs": "none",
-	"workbench.editor.empty.hint": "hidden",
-	"editor.bracketPairColorization.enabled": false,
-	"security.workspace.trust.untrustedFiles": "open"
+	"zenMode.showTabs": "none"
 }
