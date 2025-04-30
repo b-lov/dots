@@ -23,7 +23,7 @@ s:: Send "ß"
 2:: Send "€"
 ; e:: WinExist("ahk_exe code.exe") ? WinActivate() : Run(A_AppData "\..\Local\Programs\Microsoft VS Code\code.exe")
 t:: WinExist("ahk_exe WindowsTerminal.exe") ? WinActivate() : Run("wt.exe")
-; b:: WinExist("ahk_exe msedge.exe") ? WinActivate() : Run("msedge.exe")
+b:: WinExist("ahk_exe msedge.exe") ? WinActivate() : Run("msedge.exe")
 f:: WinExist("ahk_class CabinetWClass") ? WinActivate() : Run("C:\Users\" A_UserName "\Downloads")
 ; m:: WinExist("ahk_exe msedge.exe") ? Run("msedge.exe https://outlook.office.com/mail/ --new-tab") : Run("msedge.exe https://outlook.office.com/mail/")
 ; c:: WinExist("ahk_exe msedge.exe") ? Run("msedge.exe https://teams.microsoft.com/v2/ --new-tab") : Run("msedge.exe https://teams.microsoft.com/v2/")
