@@ -1,4 +1,5 @@
 ﻿#Requires AutoHotkey v2.0
+#SingleInstance Force ; Ensure only one instance of the script runs
 
 ; Remap Capslock to Ctrl
 CapsLock::Ctrl
