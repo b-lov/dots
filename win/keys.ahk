@@ -9,10 +9,10 @@ Space:: return
 Space Up:: A_PriorKey = "Space" ? Send("{Space}") : ""
 
 #HotIf GetKeyState("Space", "P")
-h::Left
-j::Down
-k::Up
-l::Right
+h:: Send "{Left}"
+j:: Send "{Down}"
+k:: Send "{Up}"
+l:: Send "{Right}"
 a:: Send "ä"
 o:: Send "ö"
 u:: Send "ü"
