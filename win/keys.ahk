@@ -10,10 +10,10 @@ Space:: return
 Space Up:: A_PriorKey = "Space" ? Send("{Space}") : ""
 
 #HotIf GetKeyState("Space", "P")
-*h::SendInput "{Blind}{Left}"
-*j::SendInput "{Blind}{Down}"
-*k::SendInput "{Blind}{Up}"
-*l::SendInput "{Blind}{Right}"
+*h:: SendInput "{Blind}{Left}"
+*j:: SendInput "{Blind}{Down}"
+*k:: SendInput "{Blind}{Up}"
+*l:: SendInput "{Blind}{Right}"
 a:: Send "ä"
 o:: Send "ö"
 u:: Send "ü"
