@@ -6,4 +6,3 @@ New-Item -ItemType SymbolicLink -Path "C:\Users\YourUsername\Desktop\MyLink.txt"
 
 # add ublock and surfingkeys to edge extensions allowlist
 New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallAllowlist" -Name "99" -Value "cjpalhdlnbpafiamejdnhcphjbkeiagm" -PropertyType String -Force
-New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallAllowlist" -Name "98" -Value "gfbliohnnapiefjpjlpjnehglfpaknnc" -PropertyType String -Force

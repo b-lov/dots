@@ -27,8 +27,8 @@ $registryPath = "HKLM:\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallAllowlis
 # Define an array of hashtables, where each hashtable represents a property to set
 # Each hashtable contains the 'Name' and 'Value' for a registry property
 $propertiesToSet = @(
-	@{ Name = "97"; Value = "cjpalhdlnbpafiamejdnhcphjbkeiagm" },
-	@{ Name = "96"; Value = "gfbliohnnapiefjpjlpjnehglfpaknnc" }
+	@{ Name = "99"; Value = "cjpalhdlnbpafiamejdnhcphjbkeiagm" },
+	@{ Name = "98"; Value = "gfbliohnnapiefjpjlpjnehglfpaknnc" }
 	# You can add more properties here if needed, for example:
 	# @{ Name = "97"; Value = "anotherExtensionID" }
 )
