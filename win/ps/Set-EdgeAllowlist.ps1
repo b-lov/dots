@@ -1,3 +1,26 @@
+# Check if the script is running as Administrator
+if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+	# If not running as Administrator, try to relaunch the script with elevated privileges
+	Write-Warning "This script needs to be run as Administrator. Attempting to elevate..."
+	try {
+		$scriptPath = $MyInvocation.MyCommand.Path
+		Start-Process PowerShell -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$scriptPath`"" -ErrorAction Stop
+	}
+	catch {
+		Write-Error "Failed to elevate privileges. Please run this script as an Administrator manually."
+		Write-Error "Error details: $($_.Exception.Message)"
+		# Pause to allow the user to see the error before the window closes if run directly
+		if ($Host.Name -eq "ConsoleHost") {
+			Read-Host "Press Enter to exit"
+		}
+		exit 1 # Exit with an error code
+	}
+	exit 0 # Exit the current non-elevated script
+}
+
+# If we reach here, the script is running as Administrator
+Write-Host "Running with Administrator privileges."
+
 # Define the common registry path
 $registryPath = "HKLM:\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallAllowlist"
 
@@ -30,3 +53,10 @@ foreach ($property in $propertiesToSet) {
 }
 
 Write-Host "All specified registry properties have been processed."
+
+# Pause if running in console, so the user can see the output
+if ($Host.Name -eq "ConsoleHost" -and -not $PSScriptRoot) {
+ # Check if not called from another script
+	Write-Host "Script finished. Press Enter to exit."
+	Read-Host
+}
