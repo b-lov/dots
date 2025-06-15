@@ -1,11 +1,22 @@
+(defalias
+  ;; German Umlauts
+  ö (fork (unicode ö) (unicode Ö) (lsft rsft))
+  ü (fork (unicode ü) (unicode Ü) (lsft rsft))
+  ä (fork (unicode ä) (unicode Ä) (lsft rsft))
+  ß RA-s
+  oe (fork (macro RA-u o) (macro (unshift ralt u) o) (lsft rsft))
+  ue (fork (macro RA-u u) (macro (unshift ralt u) 50 u) (lsft rsft))
+  ae (fork (macro RA-u a) (macro (unshift ralt u) a) (lsft rsft))
+)
+
 (defcfg
 ;; You can set the value below to no if you only use the keys defined in defsrc.
   process-unmapped-keys yes
 )
 
 (defsrc
-  q w e r t y u i o p
-  a s d f g h j k l ;
+  q w e r t y u i o p [ ] \
+  a s d f g h j k l ; '
   z x c v b n m , . /
          spc
 )
@@ -76,6 +87,8 @@
   . (chord mbr .)
   / (t! charmod / rctl)
   spc (t! charmod spc (multi (layer-switch extend) (on-release tap-virtualkey clear)))
+  ' @ä
+  [ @ue
 )
 
 (deflayermap (extend)
