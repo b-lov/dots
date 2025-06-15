@@ -1,0 +1,30 @@
+# 256 colors
+attrcolor b ".I"
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+defbce on
+
+# no welcome message
+startup_message off
+
+# Fix for Name column in windowlist only show "bash"
+windowlist string "%4n %h%=%f"
+
+# statusline
+hardstatus off
+hardstatus alwayslastline
+hardstatus string '%{= .g} %H |%=%{K}%{= w}%?%{K}%-Lw%?%{r}(%{W}%{w}%n%{w}*%f%t%?(%u)%?%{r})%{w}%?%{K}%+Lw%?%= %{g}|%{B} %m-%d  %{W}%c %{g} '
+
+# detach on hangup
+autodetach on
+
+# Use a 30000-line scrollback buffer
+defscrollback 30000
+
+# use altscreen
+altscreen on
+
+# always start at window 1
+bind c screen 1
+bind ^c screen 1
+bind 0 select 10                                                            
+screen 1

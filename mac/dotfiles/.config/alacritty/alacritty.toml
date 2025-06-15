@@ -1,0 +1,71 @@
+[colors.bright]
+black = "#5F6672"
+blue = "#61AFEF"
+cyan = "#56B6C2"
+green = "#98C379"
+magenta = "#B57EDC"
+red = "#E06C75"
+white = "#A9B2C3"
+yellow = "#E5C07B"
+
+[colors.normal]
+black = "#5F6672"
+blue = "#61AFEF"
+cyan = "#56B6C2"
+green = "#98C379"
+magenta = "#B57EDC"
+red = "#E06C75"
+white = "#A9B2C3"
+yellow = "#E5C07B"
+
+[colors.primary]
+background = "#181A1F"
+foreground = "#A9B2C3"
+
+[cursor.vi_mode_style]
+shape = "Block"
+
+[font]
+size = 16.0
+
+[font.bold]
+family = "Operator Mono SSm Lig"
+style = "Medium"
+
+[font.bold_italic]
+family = "Operator Mono SSm Lig"
+style = "Bold Italic"
+
+[font.glyph_offset]
+x = 0
+y = 4
+
+[font.italic]
+family = "Operator Mono SSm Lig"
+style = "Italic"
+
+[font.normal]
+family = "Operator Mono SSm Lig"
+style = "Book"
+
+[font.offset]
+x = 0
+y = 7
+
+[[keyboard.bindings]]
+action = "CreateNewWindow"
+key = "N"
+mods = "Command"
+
+[window]
+decorations = "buttonless"
+opacity = 0.9
+dimensions = { columns = 70, lines = 22 }
+
+[window.padding]
+x = 25
+y = 25
+
+[window.position]
+x = 0
+y = 0
