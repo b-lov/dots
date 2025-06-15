@@ -1,9 +1,9 @@
 (defalias
   ;; German Umlauts
+  ß RA-s
   ö (fork (unicode ö) (unicode Ö) (lsft rsft))
   ü (fork (unicode ü) (unicode Ü) (lsft rsft))
   ä (fork (unicode ä) (unicode Ä) (lsft rsft))
-  ß RA-s
   oe (fork (macro RA-u o) (macro (unshift ralt u) o) (lsft rsft))
   ue (fork (macro RA-u u) (macro (unshift ralt u) 50 u) (lsft rsft))
   ae (fork (macro RA-u a) (macro (unshift ralt u) a) (lsft rsft))
@@ -87,8 +87,10 @@
   . (chord mbr .)
   / (t! charmod / rctl)
   spc (t! charmod spc (multi (layer-switch extend) (on-release tap-virtualkey clear)))
-  ' @ä
+  ' @ae
   [ @ue
+  ] @oe
+  \ @ß
 )
 
 (deflayermap (extend)
