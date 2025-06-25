@@ -87,7 +87,7 @@
   r (on-press press-virtualkey shift)
   y ins
   u home
-  i up
+  i esc
   o end
   p pgup
   a lmet
@@ -95,9 +95,9 @@
   d lsft
   f lctl
 ;;g comp ;; Enable if not MacOS.
-  h esc
-  j left
-  k down
+  h left
+  j down
+  k up
   l rght
   ; pgdn
   z mute
