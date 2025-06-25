@@ -79,7 +79,7 @@
   ' (fork (unicode ä) (unicode Ä) (lsft rsft))
   [ (fork (unicode ü) (unicode Ü) (lsft rsft))
   ] (fork (unicode ö) (unicode Ö) (lsft rsft))
-  \ (unicode ß)  
+  \ (unicode ß)
 )
 
 (deflayermap (extend)
