@@ -24,8 +24,9 @@ Write-Host "Running with Administrator privileges."
 $registryPath = "HKLM:\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallAllowlist"
 
 $propertiesToSet = @(
-	@{ Name = "99"; Value = "cjpalhdlnbpafiamejdnhcphjbkeiagm" },
-	@{ Name = "98"; Value = "gfbliohnnapiefjpjlpjnehglfpaknnc" }
+	@{ Name = "99"; Value = "cjpalhdlnbpafiamejdnhcphjbkeiagm" }, # bitwarden?
+	@{ Name = "98"; Value = "gfbliohnnapiefjpjlpjnehglfpaknnc" }, # surfingkeys?
+	@{ Name = "97"; Value = "immpkjjlgappgfkkfieppnmlhakdmaab" }  # imagus
 )
 
 foreach ($property in $propertiesToSet) {
