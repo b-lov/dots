@@ -1,9 +1,7 @@
 (defalias
-  ;; 1 tap : "A" key
-  ;; 2 taps: Control+C
-  ;; 3 taps: Switch to another layer
-  ;; 4 taps: Escape key
   aa (tap-dance 100 (a (unicode ä)))
+  uu (tap-dance 100 (u (unicode ü)))
+  oo (tap-dance 100 (o (unicode ö)))
 )
 
 (defcfg
@@ -46,7 +44,7 @@
 
 (defchords mtr $chord-timeout
   (i  ) i
-  (  o) o
+  (  o) @oo
   (i o) bspc
 )
 
@@ -65,6 +63,7 @@
 (deflayermap (main)
   w (chord mtl w)
   e (chord mtl e)
+  u @uu
   i (chord mtr i)
   o (chord mtr o)
   a (t! charmod @aa lmet)
