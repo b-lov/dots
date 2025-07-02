@@ -1,9 +1,3 @@
-(defalias
-  aa (tap-dance 150 (a (unicode ä)))
-  uu (tap-dance 150 (u (unicode ü)))
-  oo (tap-dance 150 (o (unicode ö)))
-)
-
 (defcfg
 ;; You can set the value below to no if you only use the keys defined in defsrc.
   process-unmapped-keys yes
@@ -44,7 +38,7 @@
 
 (defchords mtr $chord-timeout
   (i  ) i
-  (  o) @oo
+  (  o) o
   (i o) bspc
 )
 
@@ -63,10 +57,9 @@
 (deflayermap (main)
   w (chord mtl w)
   e (chord mtl e)
-  u @uu
   i (chord mtr i)
   o (chord mtr o)
-  a (t! charmod @aa lmet)
+  a (t! charmod a lmet)
   s (t! charmod s lalt)
   d (t! charmod d lsft)
   f (t! charmod f lctl)
