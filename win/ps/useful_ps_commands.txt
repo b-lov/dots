@@ -15,4 +15,4 @@ $base64 = [System.Convert]::ToBase64String($byte_array) # PHN0eWxlPip7YmFja2dyb3
 New-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Edge" -Name "NewTabPageLocation" -Value "data:text/html;charset=utf-8;base64,$base64" -PropertyType String -Force
 
 # start Kanata
-powershell.exe -WindowStyle Hidden -NoProfile -Command "& { Start-Process -FilePath 'C:\Users\Lex\repos\dots\kanata\kanata_gui_cmd_allowed_190.exe' -ArgumentList '--cfg C:\Users\Lex\repos\dots\kanata\kenkyo.kbd' }"
+powershell.exe -WindowStyle Hidden -NoProfile -Command "& { Start-Process -FilePath '$env:USERPROFILE\repos\dots\kanata\kanata_gui_cmd_allowed_190.exe' -ArgumentList '--cfg $env:USERPROFILE\repos\dots\kanata\kenkyo.kbd' }"

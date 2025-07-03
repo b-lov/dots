@@ -1,0 +1,1 @@
+powershell.exe -WindowStyle Hidden -NoProfile -Command "& { Start-Process -FilePath '$env:USERPROFILE\repos\dots\kanata\kanata_gui_cmd_allowed_190.exe' -ArgumentList '--cfg $env:USERPROFILE\repos\dots\kanata\kenkyo.kbd' }"
